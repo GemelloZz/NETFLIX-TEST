@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>netflix-setting</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./Netflix-assets/assets/setting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid bg-black">
+          <a class="navbar-brand" href="#"><img src="./Netflix-assets/assets/netflix_logo.png" width=100px" alt="NETFLIX" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./index.html">Movies </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">My List</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex flex-row justify-content-end align-items-center">
+            <a href="" class="text-light mx-4 text-decoration-none">KIDS</a>
+            <a href=""><i class="bi bi-bell text-light"></i></a>
+            <div class="btn-group me-2">
+              <button class="btn btn-black btn-lg" type="button"><img src="./Netflix-assets/assets/kids_icon.png" width="30px" alt="" /></button>
+              <button type="button" class="btn btn-lg btn-black dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"></button>
+              <ul class="dropdown-menu bg-black text-light">
+                <li>
+                  <a href="./profile.html" class="text-decoration-none text-light"><i class="bi bi-person"></i> PROFILES</a>
+                </li>
+                <a href="./index.html" class="text-decoration-none text-light"> <i class="bi bi-film"></i> MOVIES</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <h1 class="mt-5">Account</h1>
+          <hr />
+          <div class="col-12 col-sm-12 col-lg-4 col-sm-3">
+            <h4>MEMBERSHIP E BILLING</h4>
+            <button type="button" class="btn btn-secondary text-start border-light text-black rounded-0 my-3">CANCEL MEMBERSHIP</button>
+          </div>
+          <div class="col-12 col-lg-8 d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column">
+              <p>student@gmail.com</p>
+              <p>password:********</p>
+              <p>phone:65489124851</p>
+              <p><i class="bi bi-paypal"></i> paypal admin@live.it</p>
+            </div>
+
+            <div class="d-flex flex-column text-end">
+              <p class="text-primary">change account email</p>
+              <p class="text-primary">change password</p>
+              <p class="text-primary">change phone number</p>
+              <p class="text-primary">update payment info</p>
+              <p class="text-primary">billing details</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h4>PLAN DETAILS</h4>
+          </div>
+          <div class="col-12 col-lg-8 d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column">
+              <p>
+                PREMIUM
+                <button type="button" class="btn btn-light text-start border-black text-black rounded-3 my-3">ULTRA <i class="bi bi-badge-hd-fill"></i></button>
+              </p>
+            </div>
+
+            <div class="d-flex flex-column text-end">
+              <p>change plan</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h4>SETTINGS</h4>
+          </div>
+          <div class="col-12 col-lg-8 flex-row justify-content-between">
+            <div class="d-flex flex-column">
+              <p class="text-primary">parental controls</p>
+              <p class="text-primary">test participation</p>
+              <p class="text-primary">manage download devices</p>
+              <p class="text-primary">activate a device</p>
+              <p class="text-primary">recent device streaming activity</p>
+              <p class="text-primary">sign out of all devis</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h4>MY PROFILE</h4>
+          </div>
+          <div class="col-12 col-lg-8 d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column">
+              <p><img src="./Netflix-assets/assets/avatar.png" width="40px" alt="" /> strive student</p>
+              <p></p>
+              <p class="text-primary">lenguage</p>
+              <p class="text-primary">Playback settings</p>
+              <p class="text-primary">subtitle appearance</p>
+            </div>
+            <div class="d-flex flex-column text-end">
+              <p class="text-primary">add profile email</p>
+              <p class="text-primary">manage profile</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

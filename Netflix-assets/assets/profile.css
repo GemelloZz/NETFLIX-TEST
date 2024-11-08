@@ -1,0 +1,21 @@
+body {
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header img {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#flexCheckDefault {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  color: antiquewhite;
+  border: 1px solid white;
+}
